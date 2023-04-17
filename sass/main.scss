@@ -1,0 +1,62 @@
+// Variables //
+$purple: #9356dc;
+$pink: #ff79da;
+$mint: #99e2d0;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  height: 50px;
+  background-color: lightgrey;
+}
+
+.discover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  padding: 15px;
+  // ligthen is scss syntax for lightening a color
+  background-color: lighten($color: blue, $amount: 20%);
+}
+
+.works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+  padding: 15px;
+  hyphens: auto;
+
+  background-color: $pink;
+
+  &__title {
+  }
+
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__btn {
+  }
+}

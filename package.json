@@ -1,0 +1,16 @@
+{
+  "name": "project-3",
+  "version": "0.0.1",
+  "description": "sample scss project for james",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass ./sass/main.scss:./css/style.css -w",
+    "prefix": "postcss ./css/style.css --watch --use autoprefixer cssnano -d ./css/"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "animate-html5prite": "^1.0.2"
+  }
+}
